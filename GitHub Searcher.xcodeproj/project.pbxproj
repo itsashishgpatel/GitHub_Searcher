@@ -13,6 +13,11 @@
 		497B6D64237B1FD60025FDA6 /* GitHub_Searcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 497B6D62237B1FD60025FDA6 /* GitHub_Searcher.xcdatamodeld */; };
 		497B6D66237B1FD80025FDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497B6D65237B1FD80025FDA6 /* Assets.xcassets */; };
 		497B6D69237B1FD80025FDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497B6D67237B1FD80025FDA6 /* LaunchScreen.storyboard */; };
+		497B6D73237B2AF20025FDA6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B6D72237B2AF20025FDA6 /* UserViewController.swift */; };
+		497B6D7C237B45BA0025FDA6 /* UserNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B6D7A237B45BA0025FDA6 /* UserNameTableViewCell.swift */; };
+		497B6D7D237B45BA0025FDA6 /* UserNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497B6D7B237B45BA0025FDA6 /* UserNameTableViewCell.xib */; };
+		49938D61237CACEC00A1F795 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49938D5F237CACEC00A1F795 /* RepoTableViewCell.swift */; };
+		49938D62237CACEC00A1F795 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49938D60237CACEC00A1F795 /* RepoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		497B6D65237B1FD80025FDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497B6D68237B1FD80025FDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497B6D6A237B1FD80025FDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497B6D72237B2AF20025FDA6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		497B6D7A237B45BA0025FDA6 /* UserNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameTableViewCell.swift; sourceTree = "<group>"; };
+		497B6D7B237B45BA0025FDA6 /* UserNameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserNameTableViewCell.xib; sourceTree = "<group>"; };
+		49938D5F237CACEC00A1F795 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		49938D60237CACEC00A1F795 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,8 @@
 		497B6D4F237B1FD60025FDA6 = {
 			isa = PBXGroup;
 			children = (
+				497B6D7A237B45BA0025FDA6 /* UserNameTableViewCell.swift */,
+				497B6D7B237B45BA0025FDA6 /* UserNameTableViewCell.xib */,
 				497B6D5A237B1FD60025FDA6 /* GitHub Searcher */,
 				497B6D59237B1FD60025FDA6 /* Products */,
 			);
@@ -59,6 +71,9 @@
 				497B6D5B237B1FD60025FDA6 /* AppDelegate.swift */,
 				497B6D5D237B1FD60025FDA6 /* ViewController.swift */,
 				497B6D5F237B1FD60025FDA6 /* Main.storyboard */,
+				497B6D72237B2AF20025FDA6 /* UserViewController.swift */,
+				49938D5F237CACEC00A1F795 /* RepoTableViewCell.swift */,
+				49938D60237CACEC00A1F795 /* RepoTableViewCell.xib */,
 				497B6D65237B1FD80025FDA6 /* Assets.xcassets */,
 				497B6D67237B1FD80025FDA6 /* LaunchScreen.storyboard */,
 				497B6D6A237B1FD80025FDA6 /* Info.plist */,
@@ -126,8 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				497B6D69237B1FD80025FDA6 /* LaunchScreen.storyboard in Resources */,
+				497B6D7D237B45BA0025FDA6 /* UserNameTableViewCell.xib in Resources */,
 				497B6D66237B1FD80025FDA6 /* Assets.xcassets in Resources */,
 				497B6D61237B1FD60025FDA6 /* Main.storyboard in Resources */,
+				49938D62237CACEC00A1F795 /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497B6D7C237B45BA0025FDA6 /* UserNameTableViewCell.swift in Sources */,
 				497B6D5E237B1FD60025FDA6 /* ViewController.swift in Sources */,
+				497B6D73237B2AF20025FDA6 /* UserViewController.swift in Sources */,
 				497B6D5C237B1FD60025FDA6 /* AppDelegate.swift in Sources */,
 				497B6D64237B1FD60025FDA6 /* GitHub_Searcher.xcdatamodeld in Sources */,
+				49938D61237CACEC00A1F795 /* RepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHL92A626T;
 				INFOPLIST_FILE = "GitHub Searcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHL92A626T;
 				INFOPLIST_FILE = "GitHub Searcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
